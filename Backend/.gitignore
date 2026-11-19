@@ -1,5 +1,6 @@
 # Entornos y secretos
 .env
+.vscode/
 *.env
 .env.*
 !.env.example
