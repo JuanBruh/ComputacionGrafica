@@ -1,0 +1,24 @@
+# Entornos y secretos
+.env
+*.env
+.env.*
+!.env.example
+
+# Python / Node / Dependencias
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+node_modules/
+
+# Docker y datos locales
+pgdata/
+*.sqlite
+*.db
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
